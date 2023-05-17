@@ -1,0 +1,117 @@
+                        Git and git hub command
+
+1.	git config --global user.email email@gmail.com
+			a.	to set users email in git
+
+2.	git clone “url”
+			a.	to clone git repo
+
+3.	To show files :
+		a.	ls
+
+4.	mkdir projects
+		a.	mkdir : to make folder
+		b.	projects : folder name
+
+5.	cd projects 
+		a.	to go to next directory from previous one
+
+6.	git init
+		a.	to initialized empty git repository
+
+7.	ls.git
+
+8.	touch names.txt
+		a.	touch : to make file
+		b.	names.txt : file name type
+
+9.	git status
+		a.	to get status
+
+10.	git add names.txt or .(dot)
+		a.	git add : to commit file
+		b.	names.txt : you can type particular folder name
+		c.	.(dot) : this is used to commit all files
+
+11.	git commit -m “names.txt file added”
+		a.	git commit-m : to add message
+		b.	names.txt file added : message
+
+12.	git branch -M main
+		a.	main : it is branch name in which branch you want to commit changes
+
+13.	git push origin main
+		a.	main : main is branch name in which branch you want to add 
+
+14.	vi names.txt 
+		a.	to add content in that particular files
+
+15.	git restore -staged names.txt
+		a.	if you have added names.txt or any file for commit that you don’t want to commit then you can change it not to commit.
+
+16.	rm -rf names.txt
+		a.	rm-rf : to delete particular file
+		b.	names.txt : file name
+
+17.	git log
+		a.	to get info about your log
+
+18.	git reset “commit id”
+		a.	It will delete all commit above this id from the history of project
+
+19.	git stash
+		a.	to send your folder on back stage and whenever you needed it you can call it
+
+20.	git stash pop
+		a.	to get all the changes you were making or sent to back stage
+
+21.	git stash clear:
+		a.	you can’t get those folder back
+
+22.	git remote add origin https://github.com/Xyz/FakenewsDetection.git
+		a.	to connect github with your local host
+
+23.	git remote -v
+		a.	this will give all the url that are attached to this folder
+
+24.	git remote set -url origin “github repo link”
+		a.	used to when you are trying to upload folder of existing git repo then use this command first.
+
+25.	git push origin main
+		a.	main : branch in which branch you want commit
+
+26.	git branch xyz
+		a.	git branh: to create a new branch
+		b.	xyz : branch name
+
+27.	git checkout xyz
+		a.	git checkout : to move head to the xyz branch
+
+28.	git merge feature
+		a.	used to merge feature(name of branch) to the main branch
+
+29.	git push origin xyz -f 
+		a.	used when you have to remove last commit. Here f signifies force remove
+
+30.	git push origin abhijeet -f
+		a.	used when you have to remove last commit here f signifies force remove
+
+31.	git remote add upstream “url”
+		a.	upstream: from where you have forked the git repo that git repo is known as upstream
+
+32.	To make fork project’s commits same as main project follow steps:
+		Step1. git fetch -all prune
+		Step2. git reset -hard upstream
+		Step3. git push origin main
+
+				OR
+
+		Step1.git pull upstream main
+		Step2.git push origin main
+
+33.	git rebase -i id
+		a.	id of below those commits those you want to commit in one then with which commit you want to combi
+		b.	ne squash(s) with those and mark pick those which you want to commit
+
+34.	git pull --rebase origin main
+		a.	if the folder or file you want to commit get rejected then use this command then follow commit procedure
