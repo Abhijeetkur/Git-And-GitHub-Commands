@@ -1,4 +1,4 @@
-                        Git and git hub command
+                        Git and GitHub Commands
 
 1.	git config --global user.email email@gmail.com
 			a.	to set users email in git
