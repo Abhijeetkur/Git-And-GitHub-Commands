@@ -1,2 +1,2 @@
 # Git-and-github-commands
-Added all github commands that are required
+Added all git and github commands that are required
