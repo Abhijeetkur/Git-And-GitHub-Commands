@@ -115,3 +115,7 @@
 
 34.	git pull --rebase origin main
 		a.	if the folder or file you want to commit get rejected then use this command then follow commit procedure
+		
+35. 	To delete a commit, use below two steps
+		a.     git reset commitId (commitId of next commit should be used)
+		b.     git push origin main/master --force
